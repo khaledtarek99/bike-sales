@@ -24,7 +24,7 @@ A bike manufacturing company wants to understand their sales performance in diff
 ## Data Cleaning Process  
 * Checked for misspellings and corrected them
 * Checked for duplicates and removed them
-* Checked for missing values and replaced them with appropriate values (such as mean or median)
+* Checked for empty rows and removed them
 * Renamed columns to have clear and consistent names
 * Ensure consistency in data by standardizing formats, units, and values.
 ## Analysis Conducted
