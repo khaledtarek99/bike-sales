@@ -1,59 +1,52 @@
-# Bike Sales
+# Bike Sales Dataset Analysis
+
 ![Untitled](https://user-images.githubusercontent.com/53887110/231561078-99d47982-e00a-4a5d-97ff-6f0950d07cf0.png)
 
-This repository contains Excel workbook that cleans and analyzes and visualizes Bike sales dataset, an initiative to understand and predict the factors affecting bike sales in different regions.
-
-The main goal of this project is to provide valuable insights for bike manufacturers, distributors, and retailers to make informed decisions and optimize their sales strategies.
-
+This repository contains an Excel workbook file that analyzes bike sales data. The workbook includes data cleaning, analysis, and visualization using Excel.
 
 ## Table of Contents
 * Getting Started
 * Prerequisites
-* Installation
-* Usage
-* Contributing
+* Problem Statement
+* Data Cleaning Process
+* Analysis Conducted
+* Insights Gained
+* Acknowledgments
 * License
 
 ### Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+To get started with this project, simply download the Excel workbook file and open it in Microsoft Excel. The file contains multiple worksheets, each containing analysis and insights on the bike sales data.
 ### Prerequisites
 Before you begin, make sure you have the following software installed on your machine:
-   * Python (version 3.6 or later)
-   * Jupyter Notebook (optional, for interactive analysis)
-   
-### Installing
+   * Microsoft Excel
+## Problem Statement
+A bike manufacturing company wants to understand their sales performance in different regions and among different customer segments to optimize their marketing strategy and increase sales revenue.
+## Data Cleaning Process  
+* Checked for misspellings and corrected them
+* Checked for duplicates and removed them
+* Checked for missing values and replaced them with appropriate values (such as mean or median)
+* Renamed columns to have clear and consistent names
+* Ensure consistency in data by standardizing formats, units, and values.
+## Analysis Conducted
+* augmented data by crating new feature (Age Ranges)
+* used descriptive statistics to caculate Customers Average Income, Customers Average Age, and the total sales figures
+* Grouped the data by Gender and Purchase Behavior and calculated the average income of customers
+* Grouped the data by commute distance and Purchase Behavior and calculated the count of sales figure for each distance range
+* Grouped the data by Age Ranges and Purchase Behavior and calculated the count of sales figure for each Age range
+* Grouped the data by region and calculated the total sales figures for each region
 
-To use this repository, first clone it to your local machine:
-1. Clone this repository:
-   ```
-   git clone https://github.com/khaledtarek99/bike-sales.git
-   ```
-2. Change to the project directory:
-   ```
-   cd bike-sales
-   ```
-3. Create a virtual environment (optional, but recommended):
-   ```
-   python -m venv venv
-   ```
-4. Install the required Python packages:
-   ```
-   pip install -r requirements.txt
-   ```
-## Usage   
-1. To run the main script for data processing and analysis, execute:
-  ```
-  python main.py
-  ```
-2. If you wish to perform interactive analysis or visualize data using Jupyter Notebook, launch Jupyter by running:
-  ```
-  jupyter notebook
-  ```  
-Then, open the `analysis.ipynb` notebook file and run the cells as needed.
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request or create an Issue to discuss any improvements or additions.
-
-If you would like to contribute to this project, please feel free to submit a pull request or open an issue on GitHub. We appreciate your help!
+## Insights Gained
+The bike sales dataset was visualized to provide a clear representation of the insights gained from the analysis. The visualizations include Column charts, pie charts, and line graphs in a Dashboard.
+* The Customers Average Income = $ 56,360
+* The Customers Average Age = 44 years old
+* The total sales figures = 481 Bikes
+* Male Customers who bought bikes or not had higher average income 
+* Customers with a commute distance of 0-1 miles had the highest sales figures
+* The age Range with the highest sales figures was 31-54 (Middle Age)
+* The sales figures for North America were the highest, followed by Europe and the Pacific region
+These insights can be used to optimize the bike manufacturing company's marketing strategy, such as targeting Male customers or focusing on regions with high sales figures.
+## Acknowledgments
+This project was created as a part of a data analysis course. The dataset used in this project was obtained from a publicly available source.
 ## License
 
 This project is licensed under the MIT License.
