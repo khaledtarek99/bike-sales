@@ -27,7 +27,7 @@ A bike manufacturing company wants to understand their sales performance in diff
 * Checked for empty rows and removed them
 * Renamed columns to have clear and consistent names
 * Ensure consistency in data by standardizing formats, units, and values.
-* augmented data by crating new feature (Age Ranges)
+* Normalized data by crating new column (Age Ranges)
 ## Analysis Conducted
 * used descriptive statistics to caculate Customers Average Income, Customers Average Age, and the total sales figures
 * Grouped the data by Gender and Purchase Behavior and calculated the average income of customers
