@@ -1,6 +1,7 @@
 # Bike Sales Dataset Analysis
 
-![Untitled](https://user-images.githubusercontent.com/53887110/231561078-99d47982-e00a-4a5d-97ff-6f0950d07cf0.png)
+![Bike sales Dashboard](https://github.com/khaledtarek99/bike-sales/assets/53887110/2f257e4c-42f7-499b-8fa6-4513ffdeb061)
+
 
 This repository contains an Excel workbook file that analyzes bike sales data. The workbook includes data cleaning, analysis, and visualization using Excel.
 
